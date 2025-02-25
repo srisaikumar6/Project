@@ -1,0 +1,23 @@
+get http://localhost:1111/user
+
+
+###
+get http://localhost:1111/customer
+
+
+###
+post http://localhost:1111/mycustomer
+
+
+###
+get http://localhost:2222/location/citylist
+
+
+###
+post http://localhost:2222/adminlogin
+Content-Type: application/json
+
+{
+    "emailid":"admin1@gmail.com",
+    "password":"1234"
+}
